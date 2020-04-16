@@ -1,0 +1,86 @@
+page{
+  width: 1400px;
+}
+
+main{
+  margin-left:300px;
+  margin-right: 500px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222222;
+}
+
+p{
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+}
+
+img{
+  width: 1400px;
+  height: 300px;
+}
+
+header{
+  padding-left: 90px;
+  position: relative;
+  display: flex;
+  font-family: 'Abril Fatface', cursive;
+  margin-bottom: 60px;
+  color: #222222;
+  
+}
+
+.name{
+  position: absolute;
+  left: 400px;
+  bottom:2px;
+  
+}
+
+#myname{
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+#anakim{
+  margin-top: 0;
+  font-size: 50px;
+}
+
+
+li{
+  margin-left: 20px;
+}
+
+blockquote{
+  display: block;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+  color: white;
+  background-color: #222222;
+  margin-left:300px;
+  margin-right: 500px;
+}
+
+blockquote::before {
+  content: '”';
+}
+
+h2{
+  margin-bottom: 0;
+}
+ 
+.sub{
+  margin-top: 0px;
+  font-style: italic;
+}
+ 
+#last{
+padding-bottom: 60px;
+
+}
+
+.border{
+   border-top: 4px solid;
+   padding-top: 60px;
+  padding-bottom: 60px;
+}
